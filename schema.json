@@ -1,0 +1,212 @@
+
+{
+    "assets": {
+        "columns": [
+            "id",
+            "assetType",
+            "name",
+            "description",
+            "status",
+            "createdAt",
+            "updatedAt"
+        ]
+    },
+    "cradles": {
+        "columns": [
+            "id",
+            "updatedAt",
+            "cradleName",
+            "capacity",
+            "maxShipLength",
+            "status",
+            "location",
+            "lastMaintenanceDate",
+            "nextMaintenanceDue",
+            "operationalSince",
+            "notes",
+            "occupancy",
+            "currentLoad",
+            "structuralStress",
+            "wearLevel",
+            "assetId"
+        ],
+        "foreign_keys": {
+            "assetId": "assets"
+        }
+    },
+    "vessels": {
+        "columns": [
+            "id",
+            "updatedAt",
+            "vesselName",
+            "vesselType",
+            "weight",
+            "length",
+            "width",
+            "draft",
+            "status",
+            "lastMaintenanceDate",
+            "nextMaintenanceDue",
+            "birthingArea",
+            "operationalSince",
+            "ownerCompany",
+            "notes",
+            "assignedCradle",
+            "transferCompleted",
+            "estimatedTimeToDestination",
+            "bearingTemperature",
+            "assetId"
+        ],
+        "foreign_keys": {
+            "assetId": "assets",
+            "assignedCradle": "cradles"
+        }
+    },
+    "inventory": {
+        "columns": [
+            "id",
+            "updatedAt",
+            "lastUpdated",
+            "name",
+            "location",
+            "quantity",
+            "assetId"
+        ],
+        "foreign_keys": {
+            "assetId": "assets"
+        }
+    },
+    "rails": {
+        "columns": [
+            "id",
+            "updatedAt",
+            "railName",
+            "length",
+            "capacity",
+            "status",
+            "lastInspectionDate",
+            "nextInspectionDue",
+            "operationalSince",
+            "notes",
+            "assetId"
+        ],
+        "foreign_keys": {
+            "assetId": "assets"
+        }
+    },
+    "trolleys": {
+        "columns": [
+            "id",
+            "updatedAt",
+            "trolleyName",
+            "wheelCount",
+            "railId",
+            "assignedVesselId",
+            "status",
+            "lastMaintenanceDate",
+            "nextMaintenanceDue",
+            "notes",
+            "maxCapacity",
+            "currentLoad",
+            "speed",
+            "location",
+            "utilizationRate",
+            "averageTransferTime",
+            "assetId"
+        ],
+        "foreign_keys": {
+            "assetId": "assets",
+            "railId": "rails",
+            "assignedVesselId": "vessels"
+        }
+    },
+    "lifts": {
+        "columns": [
+            "id",
+            "updatedAt",
+            "liftName",
+            "platformLength",
+            "platformWidth",
+            "maxShipDraft",
+            "location",
+            "status",
+            "lastMaintenanceDate",
+            "nextMaintenanceDue",
+            "operationalSince",
+            "assignedVesselId",
+            "notes",
+            "currentLoad",
+            "historicalUsageHours",
+            "maxCapacity",
+            "utilizationRate",
+            "averageTransferTime",
+            "assetId"
+        ],
+        "foreign_keys": {
+            "assetId": "assets",
+            "assignedVesselId": "vessels"
+        }
+    },
+    "assets_maintenance": {
+        "columns": [
+            "id",
+            "updatedAt",
+            "assetId",
+            "description",
+            "datePerformed",
+            "performedBy",
+            "nextDueDate",
+            "assetName",
+            "historicalUsageHours",
+            "remainingLifespanHours",
+            "statusSummary",
+            "shipsInTransfer",
+            "operationalLifts",
+            "operationalTrolleys"
+        ],
+        "foreign_keys": {
+            "assetId": "assets"
+        }
+    },
+    "work_orders": {
+        "columns": [
+            "id",
+            "updatedAt",
+            "workType",
+            "assignedTo",
+            "startDate",
+            "endDate",
+            "status",
+            "notes",
+            "vesselName",
+            "vesselId"
+        ],
+        "foreign_keys": {
+            "vesselId": "vessels"
+        }
+    },
+    "wheels_load": {
+        "columns": [
+            "id",
+            "updatedAt",
+            "trolley",
+            "wheel",
+            "currentLoad"
+        ],
+        "foreign_keys": {
+            "trolley": "trolleys"
+        }
+    },
+    "wheels_temperature": {
+        "columns": [
+            "id",
+            "updatedAt",
+            "trolley",
+            "wheel",
+            "bearingTemperature"
+        ],
+        "foreign_keys": {
+            "trolley": "trolleys"
+        }
+    }
+}

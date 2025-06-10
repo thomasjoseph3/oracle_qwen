@@ -1,0 +1,998 @@
+{
+    "assets": [
+      {
+        "id": "a6ccb958-eed9-4185-a2e6-61fbe00d453c",
+        "assetType": "Lift",
+        "name": "Lift L132",
+        "description": "Located at Dock B - Lift Zone 3.",
+        "status": "In Use",
+        "createdAt": "2015-07-01T05:45:48.591182",
+        "updatedAt": "2024-12-11T07:35:28.040011"
+      },
+      {
+        "id": "aeb816c1-b2f6-48b7-a331-99a09c2a8998",
+        "assetType": "Lift",
+        "name": "Lift L131",
+        "description": "Located at Dock A - Lift Zone 1.",
+        "status": "In Use",
+        "createdAt": "2012-05-15T05:45:48.591182",
+        "updatedAt": "2024-12-11T07:29:55.836845"
+      },
+      {
+        "id": "9e2e357a-f773-413e-a1de-9e324d332c65",
+        "assetType": "Lift",
+        "name": "Lift L133",
+        "description": "Located at Dock C - Lift Zone 2.",
+        "status": "In Use",
+        "createdAt": "2010-07-01T05:45:48.591182",
+        "updatedAt": "2024-12-11T07:37:52.646145"
+      },
+      {
+        "id": "9c35e680-de7d-4b44-9a03-25a9ead22b9c",
+        "assetType": "Trolley",
+        "name": "Trolley T725",
+        "description": "Available for use.",
+        "status": "Available",
+        "createdAt": "2024-09-20T07:29:55.836845",
+        "updatedAt": "2024-12-12T06:45:18.800000"
+      },
+      {
+        "id": "337b04c0-f9f7-4dac-a3cf-5061d441a1ef",
+        "assetType": "Trolley",
+        "name": "Trolley T726",
+        "description": "Currently in operation.",
+        "status": "In Use",
+        "createdAt": "2024-12-01T07:29:55.836845",
+        "updatedAt": "2024-12-12T06:45:18.800000"
+      },
+      {
+        "id": "5da276a5-97d2-472f-8270-1d44f84e9170",
+        "assetType": "Trolley",
+        "name": "Trolley T724",
+        "description": "Currently transporting goods.",
+        "status": "In Use",
+        "createdAt": "2024-10-15T07:29:55.836845",
+        "updatedAt": "2024-12-12T06:45:18.800000"
+      },
+      {
+        "id": "b5ffd4e9-ecf4-49ba-be1f-201c61f5e332",
+        "assetType": "Cradle",
+        "name": "Cradle C810",
+        "description": "Recently repainted. No structural issues.",
+        "status": "In Use",
+        "createdAt": "2010-06-01T07:29:55.836845",
+        "updatedAt": "2025-01-15T06:03:17.383398"
+      },
+      {
+        "id": "1f3d4399-5084-4480-b38a-7f030fdca962",
+        "assetType": "Cradle",
+        "name": "Cradle C811",
+        "description": "Requires new rail alignment.",
+        "status": "Available",
+        "createdAt": "2015-03-15T07:29:55.836845",
+        "updatedAt": "2025-01-15T06:03:17.383398"
+      },
+      {
+        "id": "b5ffd4e9-ecf4-49ba-be1f-201c61f5e300",
+        "assetType": "Cradle",
+        "name": "Cradle C812",
+        "description": "Recently repainted. No structural issues.",
+        "status": "In Use",
+        "createdAt": "2010-06-01T07:29:55.836845",
+        "updatedAt": "2025-01-15T06:03:17.383398"
+      },
+      {
+        "id": "bdd46e9b-1082-4562-9782-19611d7a47e1",
+        "assetType": "Rail",
+        "name": "Rail R041",
+        "description": "No issues reported",
+        "status": "Operational",
+        "createdAt": "2015-01-15T00:00:00",
+        "updatedAt": "2024-02-13T00:00:00"
+      },
+      {
+        "id": "371bf913-581c-4326-aa26-2882ca444ba0",
+        "assetType": "Rail",
+        "name": "Rail R042",
+        "description": "Minor wear observed",
+        "status": "Operational",
+        "createdAt": "2015-03-20T00:00:00",
+        "updatedAt": "2024-03-13T00:00:00"
+      },
+      {
+        "id": "b16408b4-7c30-44b3-90ea-6475ad346882",
+        "assetType": "Rail",
+        "name": "Rail R043",
+        "description": "Replaced joint bolts",
+        "status": "Operational",
+        "createdAt": "2016-06-05T00:00:00",
+        "updatedAt": "2024-04-13T00:00:00"
+      },
+      {
+        "id": "4daf97ce-ca49-4562-bd7b-feaa25db45c3",
+        "assetType": "Vessel",
+        "name": "MV Aurora",
+        "description": "Scheduled for a new navigation system upgrade.",
+        "status": "In Operation",
+        "createdAt": "2010-05-01T07:29:55.836845",
+        "updatedAt": "2024-12-12T06:46:26.770790"
+      },
+      {
+        "id": "8186fcfc-42e5-47ae-b6ee-320f3867fb8a",
+        "assetType": "Vessel",
+        "name": "SS Atlantis",
+        "description": "Docked for passenger onboarding.",
+        "status": "In Operation",
+        "createdAt": "2010-10-05T07:29:55.836845",
+        "updatedAt": "2024-12-12T06:46:26.770790"
+      },
+      {
+        "id": "8aa1dcfb-3887-45f9-a57d-f15276b7d4d5",
+        "assetType": "Vessel",
+        "name": "SS Titan",
+        "description": "Currently docked for cargo refueling.",
+        "status": "Docked",
+        "createdAt": "2008-11-15T07:29:55.836845",
+        "updatedAt": "2024-12-12T06:46:26.770790"
+      },
+      {
+        "id": "c5326520-4571-4314-a3a2-140314a427f0",
+        "assetType": "Vessel",
+        "name": "MV Seabreeze",
+        "description": "Scheduled for hull painting and engine servicing.",
+        "status": "Under Maintenance",
+        "createdAt": "2015-06-10T07:29:55.836845",
+        "updatedAt": "2024-12-12T06:46:26.770790"
+      },
+      {
+        "id": "c59a4aaf-8a26-42ec-a9f8-06ecb6d87611",
+        "assetType": "Vessel",
+        "name": "MV Poseidon",
+        "description": "Currently operating in the Pacific region.",
+        "status": "Docked",
+        "createdAt": "2012-04-20T07:29:55.836845",
+        "updatedAt": "2024-12-12T06:46:26.770790"
+      },
+      {
+        "id": "4d40afd5-687b-467b-8ce9-1d97706aee40",
+        "assetType": "Inventory",
+        "name": "Hydraulic Pump",
+        "description": "Stored in the Engine Room",
+        "status": "Available",
+        "createdAt": "2024-11-12T00:00:00",
+        "updatedAt": "2024-11-13T00:00:00"
+      },
+      {
+        "id": "849d4769-1d7e-4226-976b-d36c38e6e40d",
+        "assetType": "Inventory",
+        "name": "Propeller Blade",
+        "description": "Stored in the Stern Area",
+        "status": "Available",
+        "createdAt": "2024-10-11T00:00:00",
+        "updatedAt": "2024-10-13T00:00:00"
+      },
+      {
+        "id": "b19b0d3d-6354-43f2-9c6a-36e4da15cbfd",
+        "assetType": "Inventory",
+        "name": "Anchor Chain",
+        "description": "Stored in the Bow Section",
+        "status": "Available",
+        "createdAt": "2024-09-10T00:00:00",
+        "updatedAt": "2024-09-13T00:00:00"
+      },
+      {
+        "id": "04d8398a-0717-43f4-b1f0-315a7c026f7a",
+        "assetType": "Inventory",
+        "name": "Fuel Injector",
+        "description": "Stored in the Engine Room",
+        "status": "Available",
+        "createdAt": "2024-08-09T00:00:00",
+        "updatedAt": "2024-08-13T00:00:00"
+      },
+      {
+        "id": "a3a14e03-c5bd-4902-8f03-acb3b367c5ec",
+        "assetType": "Inventory",
+        "name": "Navigation Light",
+        "description": "Stored in the Bridge",
+        "status": "Available",
+        "createdAt": "2024-07-08T00:00:00",
+        "updatedAt": "2024-07-13T00:00:00"
+      },
+      {
+        "id": "14282f8d-5db4-44dd-b8b3-c1210a31e5f1",
+        "assetType": "Inventory",
+        "name": "Steering Gear",
+        "description": "Stored in the Rudder Area",
+        "status": "Available",
+        "createdAt": "2024-06-07T00:00:00",
+        "updatedAt": "2024-06-13T00:00:00"
+      },
+      {
+        "id": "5d5f840c-f612-4b5f-8ea1-f011673b2127",
+        "assetType": "Inventory",
+        "name": "Ballast Valve",
+        "description": "Stored in the Ballast Tank",
+        "status": "Available",
+        "createdAt": "2024-05-06T00:00:00",
+        "updatedAt": "2024-05-13T00:00:00"
+      },
+      {
+        "id": "0a0678b2-293d-4dfb-975e-d33b30ec4797",
+        "assetType": "Inventory",
+        "name": "Cooling Fan",
+        "description": "Stored in the Engine Room",
+        "status": "Available",
+        "createdAt": "2024-04-05T00:00:00",
+        "updatedAt": "2024-04-13T00:00:00"
+      },
+      {
+        "id": "d31811cc-4f30-458d-b3d9-62dd43b349a3",
+        "assetType": "Inventory",
+        "name": "Fire Extinguisher",
+        "description": "Stored in the Safety Locker",
+        "status": "Available",
+        "createdAt": "2024-03-04T00:00:00",
+        "updatedAt": "2024-03-13T00:00:00"
+      },
+      {
+        "id": "30ee4193-296f-4982-a298-605ac8bc4240",
+        "assetType": "Inventory",
+        "name": "Radar System",
+        "description": "Stored in the Bridge",
+        "status": "Available",
+        "createdAt": "2024-02-03T00:00:00",
+        "updatedAt": "2024-02-13T00:00:00"
+      }
+    ],
+    "cradles": [
+      {
+        "id": "b5ffd4e9-ecf4-49ba-be1f-201c61f5e332",
+        "updatedAt": "2025-01-15T06:03:17.383398",
+        "cradleName": "Cradle C810",
+        "capacity": 3500.0,
+        "maxShipLength": 100.0,
+        "status": "In Use",
+        "location": "Dock A - Section 3",
+        "lastMaintenanceDate": "2024-11-15T07:29:55.836845",
+        "nextMaintenanceDue": "2025-05-15T07:29:55.836845",
+        "operationalSince": "2010-06-01T07:29:55.836845",
+        "notes": "Recently repainted. No structural issues.",
+        "occupancy": "MV Aurora",
+        "currentLoad": 2000.0,
+        "structuralStress": "35%",
+        "wearLevel": "12%",
+        "assetId": "b5ffd4e9-ecf4-49ba-be1f-201c61f5e332"
+      },
+    
+      {
+        "id": "1f3d4399-5084-4480-b38a-7f030fdca962",
+        "updatedAt": "2025-01-15T06:03:17.383398",
+        "cradleName": "Cradle C811",
+        "capacity": 1300.0,
+        "maxShipLength": 75.0,
+        "status": "Available",
+        "location": "Dock B - Section 1",
+        "lastMaintenanceDate": "2024-10-01T07:29:55.836845",
+        "nextMaintenanceDue": "2025-04-01T07:29:55.836845",
+        "operationalSince": "2015-03-15T07:29:55.836845",
+        "notes": "Requires new rail alignment.",
+        "occupancy": "MV Seabreeze",
+        "currentLoad": 0.0,
+        "structuralStress": "0%",
+        "wearLevel": "0%",
+        "assetId": "1f3d4399-5084-4480-b38a-7f030fdca962"
+      },
+      {
+        "id": "3076bc91-3f9a-45ba-8d22-f14caaa92ec1",
+        "updatedAt": "2025-01-15T06:03:17.383398",
+        "cradleName": "Cradle C812",
+        "capacity": 2700.0,
+        "maxShipLength": 120.0,
+        "status": "In Use",
+        "location": "Dock C - Section 5",
+        "lastMaintenanceDate": "2024-12-01T07:29:55.836845",
+        "nextMaintenanceDue": "2025-06-01T07:29:55.836845",
+        "operationalSince": "2008-09-20T07:29:55.836845",
+        "notes": "Hydraulic system malfunction. Repairs in progress.",
+        "occupancy": "SS Atlantis",
+        "currentLoad": 1500.0,
+        "structuralStress": "45%",
+        "wearLevel": "18%",
+        "assetId": "b5ffd4e9-ecf4-49ba-be1f-201c61f5e300"
+      },
+      {
+        "id": "b5ffd4e9-ecf4-49ba-be1f-201c61f5e333",
+        "updatedAt": "2025-01-15T06:03:17.383398",
+        "cradleName": "Cradle C813",
+        "capacity": 3500.0,
+        "maxShipLength": 100.0,
+        "status": "In Use",
+        "location": "Dock A - Section 3",
+        "lastMaintenanceDate": "2024-11-15T07:29:55.836845",
+        "nextMaintenanceDue": "2025-05-15T07:29:55.836845",
+        "operationalSince": "2010-06-01T07:29:55.836845",
+        "notes": "Recently repainted. No structural issues.",
+        "occupancy": "MV Aurora",
+        "currentLoad": 2000.0,
+        "structuralStress": "35%",
+        "wearLevel": "12%",
+        "assetId": "b5ffd4e9-ecf4-49ba-be1f-201c61f5e332"
+      },    {
+        "id": "b5ffd4e9-ecf4-49ba-be1f-201c61f5e334",
+        "updatedAt": "2025-01-15T06:03:17.383398",
+        "cradleName": "Cradle C814",
+        "capacity": 3500.0,
+        "maxShipLength": 100.0,
+        "status": "In Use",
+        "location": "Dock A - Section 3",
+        "lastMaintenanceDate": "2024-11-15T07:29:55.836845",
+        "nextMaintenanceDue": "2025-05-15T07:29:55.836845",
+        "operationalSince": "2010-06-01T07:29:55.836845",
+        "notes": "Recently repainted. No structural issues.",
+        "occupancy": "MV Aurora",
+        "currentLoad": 2000.0,
+        "structuralStress": "35%",
+        "wearLevel": "12%",
+        "assetId": "b5ffd4e9-ecf4-49ba-be1f-201c61f5e332"
+      }
+    ],
+    "vessels": [
+      {
+        "id": "4daf97ce-ca49-4562-bd7b-feaa25db45c3",
+        "updatedAt": "2024-12-12T06:46:26.770790",
+        "vesselName": "MV Aurora",
+        "vesselType": "Cargo Ship",
+        "weight": 15000.75,
+        "length": 200.5,
+        "width": 35.25,
+        "draft": 10.75,
+        "status": "In Operation",
+        "lastMaintenanceDate": "2024-10-15T07:29:55.836845",
+        "nextMaintenanceDue": "2025-04-15T07:29:55.836845",
+        "birthingArea": "Dock A - Section 1",
+        "operationalSince": "2010-05-01T07:29:55.836845",
+        "ownerCompany": "Oceanic Logistics Ltd.",
+        "notes": "Scheduled for a new navigation system upgrade.",
+        "assignedCradle": "b5ffd4e9-ecf4-49ba-be1f-201c61f5e332",
+        "transferCompleted": "46%",
+        "estimatedTimeToDestination": "45 minutes",
+        "bearingTemperature": null,
+        "assetId": "4daf97ce-ca49-4562-bd7b-feaa25db45c3"
+      },
+      {
+        "id": "8186fcfc-42e5-47ae-b6ee-320f3867fb8a",
+        "updatedAt": "2024-12-12T06:46:26.770790",
+        "vesselName": "SS Atlantis",
+        "vesselType": "Cruise Ship",
+        "weight": 30000.0,
+        "length": 350.0,
+        "width": 50.0,
+        "draft": 12.0,
+        "status": "In Operation",
+        "lastMaintenanceDate": "2024-12-01T07:29:55.836845",
+        "nextMaintenanceDue": "2025-06-01T07:29:55.836845",
+        "birthingArea": "Dock D - Section 1",
+        "operationalSince": "2010-10-05T07:29:55.836845",
+        "ownerCompany": "Luxury Voyages Ltd.",
+        "notes": "Docked for passenger onboarding.",
+        "assignedCradle": "3076bc91-3f9a-45ba-8d22-f14caaa92ec1",
+        "transferCompleted": "7%",
+        "estimatedTimeToDestination": "7 Hours",
+        "bearingTemperature": null,
+        "assetId": "8186fcfc-42e5-47ae-b6ee-320f3867fb8a"
+      },
+      {
+        "id": "8aa1dcfb-3887-45f9-a57d-f15276b7d4d5",
+        "updatedAt": "2024-12-12T06:46:26.770790",
+        "vesselName": "SS Titan",
+        "vesselType": "Tanker",
+        "weight": 25000.0,
+        "length": 250.0,
+        "width": 40.0,
+        "draft": 15.0,
+        "status": "Docked",
+        "lastMaintenanceDate": "2024-11-20T07:29:55.836845",
+        "nextMaintenanceDue": "2025-05-20T07:29:55.836845",
+        "birthingArea": "Dock E - Section 3",
+        "operationalSince": "2008-11-15T07:29:55.836845",
+        "ownerCompany": "Global Marine Inc.",
+        "notes": "Currently docked for cargo refueling.",
+        "assignedCradle": "b5ffd4e9-ecf4-49ba-be1f-201c61f5e333",
+        "transferCompleted": "16%",
+        "estimatedTimeToDestination": "3 Hours",
+        "bearingTemperature": 95.0,
+        "assetId": "8aa1dcfb-3887-45f9-a57d-f15276b7d4d5"
+      },
+      {
+        "id": "c5326520-4571-4314-a3a2-140314a427f0",
+        "updatedAt": "2024-12-12T06:46:26.770790",
+        "vesselName": "MV Seabreeze",
+        "vesselType": "Yacht",
+        "weight": 35000.0,
+        "length": 350.0,
+        "width": 40.0,
+        "draft": 3.5,
+        "status": "Under Maintenance",
+        "lastMaintenanceDate": "2024-09-30T07:29:55.836845",
+        "nextMaintenanceDue": "2025-03-30T07:29:55.836845",
+        "birthingArea": "Dock B - Section 2",
+        "operationalSince": "2015-06-10T07:29:55.836845",
+        "ownerCompany": "Elite Marine Holdings",
+        "notes": "Scheduled for hull painting and engine servicing.",
+        "assignedCradle": "1f3d4399-5084-4480-b38a-7f030fdca962",
+        "transferCompleted": "61%",
+        "estimatedTimeToDestination": "2 Hours",
+        "bearingTemperature": null,
+        "assetId": "c5326520-4571-4314-a3a2-140314a427f0"
+      },
+      {
+        "id": "c59a4aaf-8a26-42ec-a9f8-06ecb6d87611",
+        "updatedAt": "2024-12-12T06:46:26.770790",
+        "vesselName": "MV Poseidon",
+        "vesselType": "Fishing Vessel",
+        "weight": 38000.0,
+        "length": 385.0,
+        "width": 43.0,
+        "draft": 4.5,
+        "status": "Docked",
+        "lastMaintenanceDate": "2024-08-15T07:29:55.836845",
+        "nextMaintenanceDue": "2025-02-15T07:29:55.836845",
+        "birthingArea": "Dock C - Section 4",
+        "operationalSince": "2012-04-20T07:29:55.836845",
+        "ownerCompany": "Poseidon Seafood Co.",
+        "notes": "Currently operating in the Pacific region.",
+        "assignedCradle": "b5ffd4e9-ecf4-49ba-be1f-201c61f5e334",
+        "transferCompleted": "100%",
+        "estimatedTimeToDestination": "N/A",
+        "bearingTemperature": null,
+        "assetId": "c59a4aaf-8a26-42ec-a9f8-06ecb6d87611"
+      }
+    ],
+    "inventory": [
+      {
+        "id": "4d40afd5-687b-467b-8ce9-1d97706aee40",
+        "updatedAt": "2024-11-13T00:00:00",
+        "lastUpdated": "2024-11-12T00:00:00",
+        "name": "Hydraulic Pump",
+        "location": "Engine Room",
+        "quantity": 15,
+        "assetId": "4d40afd5-687b-467b-8ce9-1d97706aee40"
+      },
+      {
+        "id": "849d4769-1d7e-4226-976b-d36c38e6e40d",
+        "updatedAt": "2024-10-13T00:00:00",
+        "lastUpdated": "2024-10-11T00:00:00",
+        "name": "Propeller Blade",
+        "location": "Stern Area",
+        "quantity": 8,
+        "assetId": "849d4769-1d7e-4226-976b-d36c38e6e40d"
+      },
+      {
+        "id": "b19b0d3d-6354-43f2-9c6a-36e4da15cbfd",
+        "updatedAt": "2024-09-13T00:00:00",
+        "lastUpdated": "2024-09-10T00:00:00",
+        "name": "Anchor Chain",
+        "location": "Bow Section",
+        "quantity": 20,
+        "assetId": "b19b0d3d-6354-43f2-9c6a-36e4da15cbfd"
+      },
+      {
+        "id": "04d8398a-0717-43f4-b1f0-315a7c026f7a",
+        "updatedAt": "2024-08-13T00:00:00",
+        "lastUpdated": "2024-08-09T00:00:00",
+        "name": "Fuel Injector",
+        "location": "Engine Room",
+        "quantity": 50,
+        "assetId": "04d8398a-0717-43f4-b1f0-315a7c026f7a"
+      },
+      {
+        "id": "a3a14e03-c5bd-4902-8f03-acb3b367c5ec",
+        "updatedAt": "2024-07-13T00:00:00",
+        "lastUpdated": "2024-07-08T00:00:00",
+        "name": "Navigation Light",
+        "location": "Bridge",
+        "quantity": 30,
+        "assetId": "a3a14e03-c5bd-4902-8f03-acb3b367c5ec"
+      },
+      {
+        "id": "14282f8d-5db4-44dd-b8b3-c1210a31e5f1",
+        "updatedAt": "2024-06-13T00:00:00",
+        "lastUpdated": "2024-06-07T00:00:00",
+        "name": "Steering Gear",
+        "location": "Rudder Area",
+        "quantity": 10,
+        "assetId": "14282f8d-5db4-44dd-b8b3-c1210a31e5f1"
+      },
+      {
+        "id": "5d5f840c-f612-4b5f-8ea1-f011673b2127",
+        "updatedAt": "2024-05-13T00:00:00",
+        "lastUpdated": "2024-05-06T00:00:00",
+        "name": "Ballast Valve",
+        "location": "Ballast Tank",
+        "quantity": 25,
+        "assetId": "5d5f840c-f612-4b5f-8ea1-f011673b2127"
+      },
+      {
+        "id": "0a0678b2-293d-4dfb-975e-d33b30ec4797",
+        "updatedAt": "2024-04-13T00:00:00",
+        "lastUpdated": "2024-04-05T00:00:00",
+        "name": "Cooling Fan",
+        "location": "Engine Room",
+        "quantity": 18,
+        "assetId": "0a0678b2-293d-4dfb-975e-d33b30ec4797"
+      },
+      {
+        "id": "d31811cc-4f30-458d-b3d9-62dd43b349a3",
+        "updatedAt": "2024-03-13T00:00:00",
+        "lastUpdated": "2024-03-04T00:00:00",
+        "name": "Fire Extinguisher",
+        "location": "Safety Locker",
+        "quantity": 40,
+        "assetId": "d31811cc-4f30-458d-b3d9-62dd43b349a3"
+      },
+      {
+        "id": "30ee4193-296f-4982-a298-605ac8bc4240",
+        "updatedAt": "2024-02-13T00:00:00",
+        "lastUpdated": "2024-02-03T00:00:00",
+        "name": "Radar System",
+        "location": "Bridge",
+        "quantity": 5,
+        "assetId": "30ee4193-296f-4982-a298-605ac8bc4240"
+      }
+    ],
+    "rails": [
+      {
+        "id": "bdd46e9b-1082-4562-9782-19611d7a47e1",
+        "updatedAt": "2024-02-13T00:00:00",
+        "railName": "Rail R041",
+        "length": 500.0,
+        "capacity": 100.0,
+        "status": "Operational",
+        "lastInspectionDate": "2024-02-12T00:00:00",
+        "nextInspectionDue": "2024-03-13T00:00:00",
+        "operationalSince": "2015-01-15T00:00:00",
+        "notes": "No issues reported",
+        "assetId": "bdd46e9b-1082-4562-9782-19611d7a47e1"
+      },
+      {
+        "id": "371bf913-581c-4326-aa26-2882ca444ba0",
+        "updatedAt": "2024-03-13T00:00:00",
+        "railName": "Rail R042",
+        "length": 520.0,
+        "capacity": 120.0,
+        "status": "Operational",
+        "lastInspectionDate": "2024-03-12T00:00:00",
+        "nextInspectionDue": "2024-04-13T00:00:00",
+        "operationalSince": "2015-03-20T00:00:00",
+        "notes": "Minor wear observed",
+        "assetId": "371bf913-581c-4326-aa26-2882ca444ba0"
+      },
+      {
+        "id": "b16408b4-7c30-44b3-90ea-6475ad346882",
+        "updatedAt": "2024-04-13T00:00:00",
+        "railName": "Rail R043",
+        "length": 480.0,
+        "capacity": 110.0,
+        "status": "Operational",
+        "lastInspectionDate": "2024-04-12T00:00:00",
+        "nextInspectionDue": "2024-05-13T00:00:00",
+        "operationalSince": "2016-06-05T00:00:00",
+        "notes": "Replaced joint bolts",
+        "assetId": "b16408b4-7c30-44b3-90ea-6475ad346882"
+      }
+    ],
+    "assets_maintenance": [
+      {
+        "id": "a4555c31-94cc-4006-a3d5-2b4fd9804ad2",
+        "updatedAt": "2024-12-13T06:48:58.631586+00:00",
+        "assetId": "1f3d4399-5084-4480-b38a-7f030fdca962",
+        "description": "Painted surface to prevent corrosion and replaced bolts.",
+        "datePerformed": "2024-09-25T05:45:48.591182+00:00",
+        "performedBy": "Harbor Maintenance Team",
+        "nextDueDate": "2025-01-01T05:25:23.451105+00:00",
+        "assetName": "Cradle C811",
+        "historicalUsageHours": 5000.0,
+        "remainingLifespanHours": 15000.0,
+        "statusSummary": "Operational",
+        "shipsInTransfer": null,
+        "operationalLifts": null,
+        "operationalTrolleys": null
+      },
+      {
+        "id": "9c1ff073-d788-4274-a382-30fef781238f",
+        "updatedAt": "2024-12-13T06:48:58.631586+00:00",
+        "assetId": "337b04c0-f9f7-4dac-a3cf-5061d441a1ef",
+        "description": "Replaced hydraulic pump and verified load-bearing capacity.",
+        "datePerformed": "2024-10-05T05:45:48.591182+00:00",
+        "performedBy": "Industrial Equipment Services",
+        "nextDueDate": "2024-12-29T05:25:23.451105+00:00",
+        "assetName": "Trolley T726",
+        "historicalUsageHours": 6000.0,
+        "remainingLifespanHours": 4000.0,
+        "statusSummary": "Operational",
+        "shipsInTransfer": null,
+        "operationalLifts": null,
+        "operationalTrolleys": 3.0
+      },
+      {
+        "id": "37d6be96-be02-4b06-927f-71f0a6f3bbf1",
+        "updatedAt": "2024-12-13T06:48:58.631586+00:00",
+        "assetId": "a6ccb958-eed9-4185-a2e6-61fbe00d453c",
+        "description": "Performed routine electrical inspection and replaced safety switches.",
+        "datePerformed": "2024-11-10T05:45:48.591182+00:00",
+        "performedBy": "Lift Safety Solutions",
+        "nextDueDate": "2025-05-10T05:25:23.451105+00:00",
+        "assetName": "Lift L132",
+        "historicalUsageHours": 12000.0,
+        "remainingLifespanHours": 18000.0,
+        "statusSummary": "Operational",
+        "shipsInTransfer": 4.0,
+        "operationalLifts": 3.0,
+        "operationalTrolleys": null
+      },
+      {
+        "id": "a67395bb-1877-4bb7-bdc3-51bdd284e2a5",
+        "updatedAt": "2024-12-13T06:48:58.631586+00:00",
+        "assetId": "371bf913-581c-4326-aa26-2882ca444ba0",
+        "description": "Inspected track for wear and performed ultrasonic testing.",
+        "datePerformed": "2024-08-15T05:45:48.591182+00:00",
+        "performedBy": "TrackCare Ltd.",
+        "nextDueDate": "2025-02-15T05:25:23.451105+00:00",
+        "assetName": "Rail R042",
+        "historicalUsageHours": 8000.0,
+        "remainingLifespanHours": 12000.0,
+        "statusSummary": "Operational",
+        "shipsInTransfer": null,
+        "operationalLifts": null,
+        "operationalTrolleys": null
+      },
+      {
+        "id": "56ffe57c-8c88-4ba2-9e8c-ee61a97432d3",
+        "updatedAt": "2024-12-13T06:48:58.631586+00:00",
+        "assetId": "9c35e680-de7d-4b44-9a03-25a9ead22b9c",
+        "description": "Replaced damaged wheels and tested hydraulic system.",
+        "datePerformed": "2024-12-01T05:45:48.591182+00:00",
+        "performedBy": "Trolley Experts Ltd.",
+        "nextDueDate": "2025-06-01T05:25:23.451105+00:00",
+        "assetName": "Trolley T725",
+        "historicalUsageHours": 4500.0,
+        "remainingLifespanHours": 5500.0,
+        "statusSummary": "Operational",
+        "shipsInTransfer": null,
+        "operationalLifts": null,
+        "operationalTrolleys": 3.0
+      }
+    ],
+    "trolleys": [
+      {
+        "id": "9c35e680-de7d-4b44-9a03-25a9ead22b9c",
+        "updatedAt": "2024-12-12T06:45:18.800000",
+        "trolleyName": "Trolley T725",
+        "wheelCount": 6,
+        "railId": null,
+        "assignedVesselId": null,
+        "status": "Available",
+        "lastMaintenanceDate": "2024-09-20T07:29:55.836845",
+        "nextMaintenanceDue": "2025-03-20T07:29:55.836845",
+        "notes": "Available for use.",
+        "maxCapacity": 75.0,
+        "currentLoad": 0.0,
+        "speed": 0.0,
+        "location": "Rail 2 - Dock A",
+        "utilizationRate": "40%",
+        "averageTransferTime": "1 Hour",
+        "assetId": "9c35e680-de7d-4b44-9a03-25a9ead22b9c"
+      },
+      {
+        "id": "337b04c0-f9f7-4dac-a3cf-5061d441a1ef",
+        "updatedAt": "2024-12-12T06:45:18.800000",
+        "trolleyName": "Trolley T726",
+        "wheelCount": 8,
+        "railId": null,
+        "assignedVesselId": null,
+        "status": "In Use",
+        "lastMaintenanceDate": "2024-12-01T07:29:55.836845",
+        "nextMaintenanceDue": "2025-06-01T07:29:55.836845",
+        "notes": "Currently in operation.",
+        "maxCapacity": 120.0,
+        "currentLoad": 130.0,
+        "speed": 2.8,
+        "location": "Rail 3 - Dock C",
+        "utilizationRate": "25%",
+        "averageTransferTime": "2 Hours",
+        "assetId": "337b04c0-f9f7-4dac-a3cf-5061d441a1ef"
+      },
+      {
+        "id": "5da276a5-97d2-472f-8270-1d44f84e9170",
+        "updatedAt": "2024-12-12T06:45:18.800000",
+        "trolleyName": "Trolley T724",
+        "wheelCount": 10,
+        "railId": null,
+        "assignedVesselId": null,
+        "status": "In Use",
+        "lastMaintenanceDate": "2024-10-15T07:29:55.836845",
+        "nextMaintenanceDue": "2025-04-15T07:29:55.836845",
+        "notes": "Currently transporting goods.",
+        "maxCapacity": 50.0,
+        "currentLoad": 40.0,
+        "speed": 3.5,
+        "location": "Rail 1 - Dock B",
+        "utilizationRate": "35%",
+        "averageTransferTime": "1.2 Hours",
+        "assetId": "5da276a5-97d2-472f-8270-1d44f84e9170"
+      }
+    ],
+    "lifts": [
+      {
+        "id": "a6ccb958-eed9-4185-a2e6-61fbe00d453c",
+        "updatedAt": "2024-12-11T07:35:28.040011",
+        "liftName": "Lift L132",
+        "platformLength": 120.0,
+        "platformWidth": 25.0,
+        "maxShipDraft": 10.0,
+        "location": "Dock B - Lift Zone 3",
+        "status": "In Use",
+        "lastMaintenanceDate": "2024-11-10T05:45:48.591182",
+        "nextMaintenanceDue": "2025-05-10T05:45:48.591182",
+        "operationalSince": "2015-07-01T05:45:48.591182",
+        "assignedVesselId": null,
+        "notes": "Operational with current load of 4500 tons.",
+        "currentLoad": 4500.0,
+        "historicalUsageHours": 1920.0,
+        "maxCapacity": 5000.0,
+        "utilizationRate": "25%",
+        "averageTransferTime": "2 Hours",
+        "assetId": "a6ccb958-eed9-4185-a2e6-61fbe00d453c"
+      },
+      {
+        "id": "aeb816c1-b2f6-48b7-a331-99a09c2a8998",
+        "updatedAt": "2024-12-11T07:29:55.836845",
+        "liftName": "Lift L131",
+        "platformLength": 100.0,
+        "platformWidth": 20.0,
+        "maxShipDraft": 8.5,
+        "location": "Dock A - Lift Zone 1",
+        "status": "In Use",
+        "lastMaintenanceDate": "2024-10-20T05:45:48.591182",
+        "nextMaintenanceDue": "2025-04-20T05:45:48.591182",
+        "operationalSince": "2012-05-15T05:45:48.591182",
+        "assignedVesselId": null,
+        "notes": "Operational with current load of 1800 tons.",
+        "currentLoad": 1800.0,
+        "historicalUsageHours": 720.0,
+        "maxCapacity": 3000.0,
+        "utilizationRate": "31%",
+        "averageTransferTime": "1.5 Hours",
+        "assetId": "aeb816c1-b2f6-48b7-a331-99a09c2a8998"
+      },
+      {
+        "id": "9e2e357a-f773-413e-a1de-9e324d332c65",
+        "updatedAt": "2024-12-11T07:37:52.646145",
+        "liftName": "Lift L133",
+        "platformLength": 150.0,
+        "platformWidth": 35.0,
+        "maxShipDraft": 12.0,
+        "location": "Dock C - Lift Zone 2",
+        "status": "In Use",
+        "lastMaintenanceDate": "2024-12-05T05:45:48.591182",
+        "nextMaintenanceDue": "2025-06-05T05:45:48.591182",
+        "operationalSince": "2010-07-01T05:45:48.591182",
+        "assignedVesselId": null,
+        "notes": "Operational with current load of 800 tons.",
+        "currentLoad": 800.0,
+        "historicalUsageHours": 820.0,
+        "maxCapacity": 2000.0,
+        "utilizationRate": "44%",
+        "averageTransferTime": "1 Hour",
+        "assetId": "9e2e357a-f773-413e-a1de-9e324d332c65"
+      }
+    ],
+    "incident_reports": [],
+    "work_orders": [
+      {
+        "id": "21dc5ca0-3137-40f7-a272-222dbea12fdd",
+        "updatedAt": "2024-12-03T00:00:00+00:00",
+        "workType": "transfer",
+        "assignedTo": "John Doe",
+        "startDate": "2024-12-02T22:00:00+00:00",
+        "endDate": "2024-12-04T00:00:00+00:00",
+        "status": "Completed",
+        "notes": "Cargo transfer completed successfully",
+        "vesselName": "MV Aurora",
+        "vesselId": "4daf97ce-ca49-4562-bd7b-feaa25db45c3"
+      },
+      {
+        "id": "93a7f446-3663-46bd-bcff-1178f5f7690b",
+        "updatedAt": "2024-11-28T00:00:00+00:00",
+        "workType": "transfer",
+        "assignedTo": "Jane Smith",
+        "startDate": "2024-11-27T21:00:00+00:00",
+        "endDate": null,
+        "status": "In Progress",
+        "notes": "Awaiting final confirmation",
+        "vesselName": "SS Titan",
+        "vesselId": "8aa1dcfb-3887-45f9-a57d-f15276b7d4d5"
+      },
+      {
+        "id": "7433d1c5-1c9a-4594-9814-acc010b2db3a",
+        "updatedAt": "2024-11-23T00:00:00+00:00",
+        "workType": "repair",
+        "assignedTo": "Mark Brown",
+        "startDate": "2024-11-22T19:00:00+00:00",
+        "endDate": "2024-12-08T00:00:00+00:00",
+        "status": "Completed",
+        "notes": "Repaired hydraulic pump",
+        "vesselName": "MV Seabreeze",
+        "vesselId": "c5326520-4571-4314-a3a2-140314a427f0"
+      },
+      {
+        "id": "8e67ca03-459a-4f68-be82-266b717f9ca7",
+        "updatedAt": "2024-11-18T00:00:00+00:00",
+        "workType": "transfer",
+        "assignedTo": "Alice Green",
+        "startDate": "2024-11-17T20:00:00+00:00",
+        "endDate": "2024-12-16T00:00:00+00:00",
+        "status": "Scheduled",
+        "notes": "Fuel transfer scheduled",
+        "vesselName": "MV Poseidon",
+        "vesselId": "c59a4aaf-8a26-42ec-a9f8-06ecb6d87611"
+      },
+      {
+        "id": "266ff623-37c5-48c4-9e7c-bc16d92d233a",
+        "updatedAt": "2024-11-13T00:00:00+00:00",
+        "workType": "transfer",
+        "assignedTo": "Robert White",
+        "startDate": "2024-11-12T18:00:00+00:00",
+        "endDate": "2024-11-15T00:00:00+00:00",
+        "status": "Cancelled",
+        "notes": "Operation cancelled due to weather conditions",
+        "vesselName": "SS Atlantis",
+        "vesselId": "8186fcfc-42e5-47ae-b6ee-320f3867fb8a"
+      }
+    ],
+    "wheels_load": [
+      {
+        "id": "4c33647d-8457-483f-a08e-66d287d093eb",
+        "updatedAt": "2024-12-13T05:25:23.451105+00:00",
+        "trolley": "5da276a5-97d2-472f-8270-1d44f84e9170",
+        "wheel": "Wheel 1",
+        "currentLoad": 1.41
+      },
+      {
+        "id": "19c3f55c-ca81-4b4f-b6ad-8c557555101a",
+        "updatedAt": "2024-12-13T05:25:23.451105+00:00",
+        "trolley": "5da276a5-97d2-472f-8270-1d44f84e9170",
+        "wheel": "Wheel 2",
+        "currentLoad": 1.53
+      },
+      {
+        "id": "cf2550a2-c219-48f8-9430-fefcceecb0de",
+        "updatedAt": "2024-12-13T05:25:23.451105+00:00",
+        "trolley": "5da276a5-97d2-472f-8270-1d44f84e9170",
+        "wheel": "Wheel 3",
+        "currentLoad": 1.35
+      },
+      {
+        "id": "db2cba3b-2121-49ea-afc6-4358ab86655c",
+        "updatedAt": "2024-12-13T05:25:23.451105+00:00",
+        "trolley": "5da276a5-97d2-472f-8270-1d44f84e9170",
+        "wheel": "Wheel 4",
+        "currentLoad": 1.65
+      },
+      {
+        "id": "d73bbde2-c10b-4108-a68b-cd448745945e",
+        "updatedAt": "2024-12-13T05:25:23.451105+00:00",
+        "trolley": "5da276a5-97d2-472f-8270-1d44f84e9170",
+        "wheel": "Wheel 5",
+        "currentLoad": 1.29
+      },
+      {
+        "id": "39db0100-00fe-40d5-bb58-43384cb966ea",
+        "updatedAt": "2024-12-13T10:42:57.995163+00:00",
+        "trolley": "5da276a5-97d2-472f-8270-1d44f84e9170",
+        "wheel": "Wheel 7",
+        "currentLoad": 1.56
+      },
+      {
+        "id": "a4e6d831-1d80-4f04-8477-42165bcdd527",
+        "updatedAt": "2024-12-13T10:42:57.995163+00:00",
+        "trolley": "5da276a5-97d2-472f-8270-1d44f84e9170",
+        "wheel": "Wheel 9",
+        "currentLoad": 1.45
+      },
+      {
+        "id": "53a81cac-462f-40da-845e-550b8b46a550",
+        "updatedAt": "2024-12-13T10:42:57.995163+00:00",
+        "trolley": "5da276a5-97d2-472f-8270-1d44f84e9170",
+        "wheel": "Wheel 10",
+        "currentLoad": 1.71
+      },
+      {
+        "id": "3900f097-1c9f-4d9e-ab5c-96300f2981a4",
+        "updatedAt": "2024-12-13T05:25:23.451105+00:00",
+        "trolley": "5da276a5-97d2-472f-8270-1d44f84e9170",
+        "wheel": "Wheel 6",
+        "currentLoad": 2.5
+      },
+      {
+        "id": "5aa323e5-a5bc-421a-9723-0d87c81c8f7d",
+        "updatedAt": "2024-12-13T10:42:57.995163+00:00",
+        "trolley": "5da276a5-97d2-472f-8270-1d44f84e9170",
+        "wheel": "Wheel 8",
+        "currentLoad": 3.5
+      }
+    ],
+    "wheels_temperature": [
+      {
+        "id": "764fee70-2943-45d7-aa62-88a0dc97267b",
+        "updatedAt": "2024-12-13T10:46:56.664907+00:00",
+        "trolley": "5da276a5-97d2-472f-8270-1d44f84e9170",
+        "wheel": "Wheel 1",
+        "bearingTemperature": 79.55
+      },
+      {
+        "id": "949e237e-2d3d-41ba-b020-d068320dd0b2",
+        "updatedAt": "2024-12-13T10:46:56.664907+00:00",
+        "trolley": "5da276a5-97d2-472f-8270-1d44f84e9170",
+        "wheel": "Wheel 2",
+        "bearingTemperature": 79.69
+      },
+      {
+        "id": "a7b3922b-3434-4c9e-bbb0-9ff13485a08f",
+        "updatedAt": "2024-12-13T10:46:56.664907+00:00",
+        "trolley": "5da276a5-97d2-472f-8270-1d44f84e9170",
+        "wheel": "Wheel 4",
+        "bearingTemperature": 81.75
+      },
+      {
+        "id": "da788560-9194-4884-aa8b-31e7798f0999",
+        "updatedAt": "2024-12-13T10:46:56.664907+00:00",
+        "trolley": "5da276a5-97d2-472f-8270-1d44f84e9170",
+        "wheel": "Wheel 6",
+        "bearingTemperature": 80.15
+      },
+      {
+        "id": "b6b8dea7-6ae7-4ed9-b868-006f97ee03dc",
+        "updatedAt": "2024-12-13T10:46:56.664907+00:00",
+        "trolley": "5da276a5-97d2-472f-8270-1d44f84e9170",
+        "wheel": "Wheel 7",
+        "bearingTemperature": 81.25
+      },
+      {
+        "id": "80c006e7-a453-420e-8152-754a56e62e9e",
+        "updatedAt": "2024-12-13T10:46:56.664907+00:00",
+        "trolley": "5da276a5-97d2-472f-8270-1d44f84e9170",
+        "wheel": "Wheel 8",
+        "bearingTemperature": 81.68
+      },
+      {
+        "id": "92d51ea9-111a-41ac-8058-24fea02b142b",
+        "updatedAt": "2024-12-13T10:46:56.664907+00:00",
+        "trolley": "5da276a5-97d2-472f-8270-1d44f84e9170",
+        "wheel": "Wheel 9",
+        "bearingTemperature": 80.26
+      },
+      {
+        "id": "a44620e6-eca4-4c5a-8961-47c5bac40494",
+        "updatedAt": "2024-12-13T10:46:56.664907+00:00",
+        "trolley": "5da276a5-97d2-472f-8270-1d44f84e9170",
+        "wheel": "Wheel 10",
+        "bearingTemperature": 81.46
+      },
+      {
+        "id": "6f6d83ff-18ef-49b3-ac45-54dc9ae79d69",
+        "updatedAt": "2024-12-13T10:46:56.664907+00:00",
+        "trolley": "5da276a5-97d2-472f-8270-1d44f84e9170",
+        "wheel": "Wheel 3",
+        "bearingTemperature": 105.0
+      },
+      {
+        "id": "d852bb02-4ce8-43ea-8e88-25cd5eb725ab",
+        "updatedAt": "2024-12-13T10:46:56.664907+00:00",
+        "trolley": "5da276a5-97d2-472f-8270-1d44f84e9170",
+        "wheel": "Wheel 5",
+        "bearingTemperature": 95.0
+      }
+    ]
+  }
+  
